@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  padding-bottom: 80px;
+}
+
+.h3{
+  color: grey;
+}
+
+/*========= TABLES ==========*/
+
+table td[class*=col-], table th[class*=col-] {
+  padding: 0px;
+  margin: 0px;
+}
+
+td{
+  vertical-align: top;
+}
+
+/*========= END TBALES ==========*/
+
+/*========= COMPONENT DIVS ==========*/
+
+#active {
+  color: red;
+}
+
+#competencies {
+  align: center;
+}
+
+#about {
+  margin: 15px;
+}
+
+.match-my-cols {
+  overflow: hidden; 
+}
+
+.match-my-cols [class*="col-"]{
+  padding: 5px;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+#panel-footer{
+  position: absolute;
+  bottom: 0;
+}
+
+/* #login {
+  color: white;
+} */
+
+#row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+#stats {
+  text-align: right;
+}
+
+#experience td {
+  padding-bottom: 10px;
+}
+
+/*========= END COMPONENT DIVS ==========*/
+
+/*========== NAVIGATION ============*/
+
+#NavItem {
+  color: grey;
+  text-decoration: none;  
+}
+#NavItem:hover {
+  color: darkgrey;
+}
+
+.navbar-default {
+  border-color: transparent;
+}
+/* NAVIGATION MEDIA */
+@media (max-width: 405px) {
+  .navbar-default .navbar-brand {
+    font-size: 13px;
+  }
+}
+
+/*========= END NAVIGATION ==========*/

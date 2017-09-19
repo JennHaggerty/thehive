@@ -1,0 +1,5 @@
+config.js
+node_modules/
+docker-compose.yml
+npm-debug.log
+.DS_Store
