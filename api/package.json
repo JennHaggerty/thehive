@@ -23,6 +23,10 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
+    "myScript": "npm install && node server.js",
+    "erryting": "npm run build-react-app && npm run start-non-dev-server",
+    "build-react-app": "cd ../webapps/react && npm i && npm run build && cp -r build ../../api/build && cd -",
+    "start-non-dev-server": "npm i && node server.js",
     "start-server": "node --inspect server.js",
     "build-and-start": "cd ../webapps/react && npm run build && mv build ../../api/app && cd - && npm run start-server"
   }
