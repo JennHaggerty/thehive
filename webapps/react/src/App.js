@@ -5,6 +5,12 @@ import Navigation from './navigation';
 import Logout from './logout';
 import config from './config';
 
+var Router = require('react-router')
+var routes = require('./routes')
+//Router.run(routes, Router.HistoryLocation, function(Handler, state) {
+//  React.render(<Handler/>, document.body)
+//})
+
 export default class App extends Component {
   constructor(props) {
     super(props);
